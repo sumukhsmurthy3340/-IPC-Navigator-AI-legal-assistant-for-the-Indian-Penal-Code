@@ -1,0 +1,19 @@
+# virtual environment (this folder is the venv)
+Scripts/
+Lib/
+Include/
+etc/
+share/
+pyvenv.cfg
+
+# python caches
+__pycache__/
+*.pyc
+
+# generated at runtime
+navigator.db
+vector_index/
+
+# secrets
+.streamlit/secrets.toml
+.env
